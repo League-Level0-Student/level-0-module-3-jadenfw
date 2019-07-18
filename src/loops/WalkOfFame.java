@@ -16,6 +16,7 @@ public class WalkOfFame {
 		rob.setSpeed(100);
 		rob.setAngle(90);
 		// 2. Make the robot draw a star shape. Hint: 144.
+		
 		for (int i = 0; i < 18; i++) {
 			
 		for (int j = 0; j < 5; j++) {
@@ -30,6 +31,7 @@ public class WalkOfFame {
 		rob.penDown();
 		
 		}
+		rob.hide();
 		// 3. Set the size of the star to 30.
 
 		/** THE CHALLENGE: **/
